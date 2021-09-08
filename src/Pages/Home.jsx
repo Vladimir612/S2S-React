@@ -1,11 +1,13 @@
-import React from 'react'
+import React from "react";
+
+import Card from "../Components/Card";
 
 const Home = () => {
   return (
-    <div>
-      Home page
+    <div className="Home">
+      <Card />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
