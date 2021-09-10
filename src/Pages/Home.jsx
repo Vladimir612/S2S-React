@@ -15,6 +15,15 @@ const Home = () => {
         commentNumber="10"
         color="rgb(255, 7, 110)"
       />
+      <Card
+        title="My first Post"
+        text="Lorem ipsum dolor sit amet consectetur, Ducimus, repudiandae temporibus omnis illum maxime quod deserunt eligendi dolor"
+        image={img1}
+        readNumber="4000"
+        viewNumber="500"
+        commentNumber="10"
+        color="rgb(255, 7, 110)"
+      />
     </div>
   );
 };

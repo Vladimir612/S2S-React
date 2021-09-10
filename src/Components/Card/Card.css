@@ -1,23 +1,25 @@
-.card-component {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: rgb(59, 59, 59);
-  overflow: hidden;
-}
+/* 
+card container style in order to set cards horizontaly:
+width: "100vw",
+height: "100vh",
+display: "flex",
+alignItems: "center",
+justifyContent: "center",
+background: "rgb(59, 59, 59)",
+overflow: "hidden",
+ */
+
 .card {
+  width: 300px;
   display: grid;
   grid-template-columns: 300px;
   grid-template-rows: 210px 210px 80px;
   grid-template-areas: "image" "text" "stats";
   border-radius: 18px;
-  background: white;
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
   font-family: roboto;
   text-align: center;
   transition: 0.5s ease;
+  background-color: white;
   cursor: pointer;
   margin: 30px;
 }
@@ -75,6 +77,5 @@
   text-transform: uppercase;
 }
 .card:hover {
-  transform: scale(1.15);
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+  transform: scale(1.03);
 }
