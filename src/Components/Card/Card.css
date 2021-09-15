@@ -1,13 +1,12 @@
-/* 
-card container style in order to set cards horizontaly:
-width: "100vw",
-height: "100vh",
-display: "flex",
-alignItems: "center",
-justifyContent: "center",
-background: "rgb(59, 59, 59)",
-overflow: "hidden",
- */
+.card-container {
+  width: 100%;
+  margin-top: 10%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
 
 .card {
   width: 300px;
@@ -36,13 +35,13 @@ overflow: "hidden",
 }
 .card-text p {
   color: grey;
-  font-size: 15px;
+  font-size: 1rem;
   font-weight: 300;
   margin-top: 5%;
 }
 .card-text h2 {
   margin-top: 0px;
-  font-size: 28px;
+  font-size: 1.8rem;
 }
 .card-stats {
   grid-area: stats;
@@ -65,17 +64,31 @@ overflow: "hidden",
   border-right: 1px solid rgb(39, 39, 39);
 }
 .card-stats .value {
-  font-size: 22px;
+  font-size: 1.3rem;
   font-weight: 500;
 }
 .card-stats .value sup {
-  font-size: 12px;
+  font-size: 0.7rem;
 }
 .card-stats .type {
-  font-size: 11px;
+  font-size: 0.7rem;
   font-weight: 300;
   text-transform: uppercase;
 }
 .card:hover {
   transform: scale(1.03);
+}
+@media (max-width: 568px) {
+  .card-container {
+    width: 80%;
+    height: fit-content;
+    display: block;
+    overflow: hidden;
+    margin-left: 10%;
+    margin-right: auto !important;
+  }
+  .card {
+    width: 100% !important;
+    margin: 10% 4%;
+  }
 }
