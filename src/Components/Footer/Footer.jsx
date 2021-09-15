@@ -39,7 +39,7 @@ const Footer = ({
           <div>
             <i className="fa fa-envelope"></i>
             <p>
-              <a href="mailto:support@company.com">{email}</a>
+              <a href="mailto:nbainfo@gmail.com">{email}</a>
             </p>
           </div>
         </div>

@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
 import logo from "../../assets/images/nbaInfo-logo.png";
-import { Link } from 'react-router-dom'
-import './Navbar.css'
+import { Link } from "react-router-dom";
+import "./Navbar.css";
 
 const Navbar = () => {
+  const scrollDown = () => {
+    window.scrollTo(0, document.body.scrollHeight);
+  };
+
   return (
     <div className="main-navbar">
       <div className="logo-wrapper">
@@ -11,14 +15,24 @@ const Navbar = () => {
       </div>
       <div className="link-wrapper">
         <ul>
-          <li><Link to="#">Games</Link></li>
-          <li><Link to="#">Players</Link></li>
-          <li><Link to="#">Teams</Link></li>
-          <li><Link to="#">About Us</Link></li>
+          <li>
+            <Link to="#">Games</Link>
+          </li>
+          <li>
+            <Link to="#">Players</Link>
+          </li>
+          <li>
+            <Link to="#">Teams</Link>
+          </li>
+          <li>
+            <Link to="/" onClick={scrollDown}>
+              About Us
+            </Link>
+          </li>
         </ul>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

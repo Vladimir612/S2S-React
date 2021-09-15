@@ -2,36 +2,46 @@ import React from "react";
 import "./Card.css";
 
 const Card = ({
-  image,
-  title,
-  text,
-  color,
-  readNumber,
-  viewNumber,
-  commentNumber,
+  playerName,
+  playerSurname,
+  playerImage,
+  playerTeam,
+  playerDescription,
+  playerRole,
+  PPG,
+  RPG,
+  APG,
 }) => {
+  const playerClick = (e) => {
+    e.preventDefault();
+    window.location.href = `/players/${playerName}${playerSurname}`;
+  };
   return (
-    <div class="card">
+    <div className="card" onClick={playerClick}>
       <div
-        class="card-image"
-        style={{ backgroundImage: `url(${image})` }}
+        className="card-image"
+        style={{ backgroundImage: `url(${playerImage})` }}
       ></div>
-      <div class="card-text">
-        <h2>{title}</h2>
-        <p>{text}</p>
+      <div className="card-text">
+        <h2>
+          {playerName} {playerSurname}
+        </h2>
+        <span>Team: {playerTeam}</span>
+        <p>{playerDescription}</p>
+        <span>Role: {playerRole}</span>
       </div>
-      <div class="card-stats" style={{ background: `${color} ` }}>
-        <div class="stat">
-          <div class="value">{readNumber}</div>
-          <div class="type">read</div>
+      <div className="card-stats">
+        <div className="stat">
+          <div className="value">{PPG}</div>
+          <div className="type">PPG</div>
         </div>
-        <div class="stat border">
-          <div class="value">{viewNumber}</div>
-          <div class="type">views</div>
+        <div className="stat border">
+          <div className="value">{RPG}</div>
+          <div className="type">RPG</div>
         </div>
-        <div class="stat">
-          <div class="value">{commentNumber}</div>
-          <div class="type">comments</div>
+        <div className="stat">
+          <div className="value">{APG}</div>
+          <div className="type">APG</div>
         </div>
       </div>
     </div>
