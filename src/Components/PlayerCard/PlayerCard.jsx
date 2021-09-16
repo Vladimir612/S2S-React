@@ -1,10 +1,8 @@
 import React from "react";
-import "./Card.css";
 
-const Card = ({
+const PlayerCard = ({
   playerName,
   playerSurname,
-  playerImage,
   playerTeam,
   playerDescription,
   playerRole,
@@ -12,16 +10,8 @@ const Card = ({
   RPG,
   APG,
 }) => {
-  const playerClick = (e) => {
-    e.preventDefault();
-    window.location.href = `/players/${playerName}${playerSurname}`;
-  };
   return (
-    <div className="card" onClick={playerClick}>
-      <div
-        className="card-image"
-        style={{ backgroundImage: `url(${playerImage})` }}
-      ></div>
+    <div className="player-card">
       <div className="card-text">
         <h2>
           {playerName} {playerSurname}
@@ -48,4 +38,4 @@ const Card = ({
   );
 };
 
-export default Card;
+export default PlayerCard;
