@@ -2,6 +2,8 @@ import React from "react";
 
 import Card from "../Card/Card";
 import "../Card/Card.css";
+
+//testing image url
 const imageURL =
   "https://www.ocregister.com/wp-content/uploads/2021/05/imageedit_1_7474432946.jpg";
 
@@ -10,6 +12,7 @@ const Players = () => {
     <div className="players">
       <div className="card-container">
         <Card
+          playerOrTeam="<PLayerCard/>"
           playerName="Lebron"
           playerSurname="James"
           playerImage={imageURL}

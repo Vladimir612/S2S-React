@@ -4,7 +4,8 @@ import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 const Navbar = () => {
-  const scrollDown = () => {
+  //scroll to bottom function
+  const scrollToFooter = () => {
     window.scrollTo(0, document.body.scrollHeight);
   };
 
@@ -19,13 +20,15 @@ const Navbar = () => {
             <Link to="#">Games</Link>
           </li>
           <li>
-            <Link to="#">Players</Link>
+            <Link to="/" onClick={scrollToFooter}>
+              Players
+            </Link>
           </li>
           <li>
             <Link to="#">Teams</Link>
           </li>
           <li>
-            <Link to="/" onClick={scrollDown}>
+            <Link to="/" onClick={scrollToFooter}>
               About Us
             </Link>
           </li>

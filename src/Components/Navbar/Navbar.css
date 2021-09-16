@@ -31,3 +31,17 @@
   font-size: 1.2rem;
   text-transform: uppercase;
 }
+@media (max-width: 768px) {
+  .link-wrapper ul {
+    display: block;
+  }
+  .main-navbar {
+    padding: 0rem 0%;
+  }
+  .link-wrapper a {
+    font-size: 1.1rem;
+  }
+  .link-wrapper ul li {
+    width: 6rem;
+  }
+}

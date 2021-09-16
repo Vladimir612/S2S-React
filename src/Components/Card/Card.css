@@ -12,7 +12,7 @@
   width: 300px;
   display: grid;
   grid-template-columns: 300px;
-  grid-template-rows: 200px 200px 60px;
+  grid-template-rows: 200px 180px 60px;
   grid-template-areas: "image" "text" "stats";
   border-radius: 18px;
   font-family: "Mulish", serif;
@@ -31,7 +31,7 @@
 
 .card-text {
   grid-area: text;
-  margin: 25px;
+  margin: 15px;
 }
 .card-text p {
   color: grey;
