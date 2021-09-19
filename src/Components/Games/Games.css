@@ -1,0 +1,17 @@
+.games-section {
+  height: 100vh;
+}
+
+.section-title {
+  margin-left: 15%;
+  margin-bottom: 1rem;
+}
+
+.section-title h2 {
+  font-family: "Josefin Slab", serif;
+  font-size: 4rem;
+  font-weight: 700;
+  color: #632029;
+  letter-spacing: 0.1rem;
+  text-shadow: 0 0.3rem 0.5rem rgb(0 0 0 / 60%);
+}

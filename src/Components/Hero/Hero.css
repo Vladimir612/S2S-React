@@ -1,6 +1,6 @@
 .hero {
   width: 100vw;
-  height: 80vh;
+  height: 100vh;
   position: relative;
 }
 
@@ -88,6 +88,7 @@
     opacity: 1;
   }
 }
+
 @keyframes arrows {
   0% {
     border-color: #eecf9a;

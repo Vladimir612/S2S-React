@@ -1,6 +1,6 @@
 .footer {
   max-height: 550px;
-  background-color: rgb(173, 83, 59);
+  background-color: #ad533b;
   color: #ffffff;
   font-size: 38pt;
   text-align: center;
@@ -12,7 +12,7 @@ footer {
   bottom: 0;
 }
 .footer-distributed {
-  background-color: rgb(173, 83, 59);
+  background-color: #ad533b;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   box-sizing: border-box;
   width: 100%;

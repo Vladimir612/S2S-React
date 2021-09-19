@@ -1,55 +1,75 @@
 {
   "games": [
     {
-      "id": 1,
-      "first_team_name": "Los Angeles Lakers",
-      "second_team_name": "Golden State Warriors",
-      "first_team_image": "https://www.freepnglogos.com/uploads/lakers-logo-png/lakers-free-hd-logo-png-2.png",
-      "second_team_image": "https://www.freepnglogos.com/uploads/warriors-png-logo/golden-state-warriors-png-logo-9.png",
-      "score": "120:115",
-      "description": "Stephen Curry scored 29 points and the Warriors capitalized on Smith's mistake that sent the game into overtime, overcoming a 51-point performance by James to beat Lakers 120-115 on Thursday night.",
-      "background_image": "https://cdn.vox-cdn.com/thumbor/U056N8XATmtq73WtCBf4nysbZoA=/0x0:4129x2753/920x613/filters:focal(0x0:4129x2753):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/49023565/usa-today-8887948.0.jpg"
-    },
-    {
-      "id": 2,
-      "first_team_name": "Phoenix Suns",
-      "second_team_name": "Boston Celtics",
-      "first_team_image": "https://www.freepngdesign.com/content/uploads/images/t_phoenix-suns-5611.png",
-      "second_team_image": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/Boston_Celtics.svg/1200px-Boston_Celtics.svg.png",
-      "score": "108:117",
-      "description": "Walker matched his season high with 32 points and the Boston Celtics rolled to a 108:117 victory over the Phoenix Suns on Thursday night. Walker was 11 of 17 from the field, hitting five 3-pointers. The Celtics were without Jaylen Brown because of a sore left shoulder, and Jayson Tatum struggled shooting for the second straight game, going 3 of 17. He had 15 points and 11 rebounds.",
-      "background_image": "https://bostonglobe-prod.cdn.arcpublishing.com/resizer/_BzW6fdPAiODPHnGQke_n5dgBk0=/1440x0/cloudfront-us-east-1.images.arcpublishing.com/bostonglobe/FKND5OXCVGZNPBBNRAJBJVXQZ4.jpg"
-    },
-    {
-      "id": 3,
-      "first_team_name": "Los Angeles Clippers",
-      "second_team_name": "Denver Nuggets",
-      "first_team_image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Los_Angeles_Clippers_%282015%29.svg/1200px-Los_Angeles_Clippers_%282015%29.svg.png",
-      "second_team_image": "https://upload.wikimedia.org/wikipedia/en/thumb/7/76/Denver_Nuggets.svg/1200px-Denver_Nuggets.svg.png",
-      "score": "112:124",
-      "description": "The Nuggets dominated the first three quarters on a night when Nikola Jokic didn't reach double figures until hitting a 3-pointer with 5:20 left in the game. He finished with 14 points, seven rebounds and seven assists. 'We expect 30, 20 and 15 from him every night,' Nuggets coach Michael Malone said of Jokic. 'He didn't play poor but he didn't play to the level he's played at in the last 15 games.'",
-      "background_image": "https://www.sportsvideo.org/new/wp-content/uploads/2021/01/Nuggets-Featured-scaled.jpg"
-    },
-    {
-      "id": 4,
-      "first_team_name": "Toronto Raptors",
-      "second_team_name": "Brooklyn Nets",
-      "first_team_image": "https://i.pinimg.com/originals/f4/4d/97/f44d97e419ff0c2cc7a41414404e3ce4.png",
-      "second_team_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Brooklyn_Nets_newlogo.svg/1200px-Brooklyn_Nets_newlogo.svg.png",
-      "score": "95:121",
-      "description": "Kyrie Irving had 28 points, 11 rebounds and eight assists, and Bruce Brown added 21 points and 14 rebounds for the Nets, who again played without the injured Kevin Durant. 'It's obviously a difficult situation, but a lot of teams are playing short-handed. You've got to play with the guys who are there,' said Joe Harris, whose hot shooting got the Nets off to a good start. 'At the start of the second half, we let them go on a few different runs.'",
-      "background_image": "https://www.gannett-cdn.com/media/USATODAY/USATODAY/2012/10/31/usp-nba_-preseason-washington-wizards-at-brooklyn-16_9.jpg?width=1600&height=800&fit=crop&format=pjpg&auto=webp"
-    },
-    {
-      "id": 5,
-      "first_team_name": "Miami Heat",
-      "second_team_name": "Milwaukee Bucks",
-      "first_team_image": "https://1000logos.net/wp-content/uploads/2021/04/Miami-Heat-logo.png",
-      "second_team_image": "http://assets.stickpng.com/images/58419ba7a6515b1e0ad75a54.png",
-      "score": "101:111",
-      "description": "Middleton broke a tie with a jumper with 0.5 seconds left in overtime and had 27 points to help the Bucks beat the Heat 109-107 on Saturday in Game 1 of the first-round series. 'I have confidence in myself,' Middleton said. 'You miss a lot of shots. You make a lot of shots. You just have to trust all the work you put in during the season and practice.'",
-      "background_image": "https://a.espncdn.com/photo/2015/0728/nba_g_bucksts_1296x729.jpg"
-    }
+    "id": 1,
+    "first_team_name": "Los Angeles Lakers",
+    "second_team_name": "Golden State Warriors",
+    "first_team_image":
+      "https://www.freepnglogos.com/uploads/lakers-logo-png/lakers-free-hd-logo-png-2.png",
+    "second_team_image":
+      "https://www.freepnglogos.com/uploads/warriors-png-logo/golden-state-warriors-png-logo-9.png",
+    "score": "120:115",
+    "description":
+      "Stephen Curry scored 29 points and the Warriors capitalized on Smith's mistake that sent the game into overtime, overcoming a 51-point performance by James to beat Lakers 120-115 on Thursday night.",
+    "background_image":
+      "https://cdn.vox-cdn.com/thumbor/U056N8XATmtq73WtCBf4nysbZoA=/0x0:4129x2753/920x613/filters:focal(0x0:4129x2753):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/49023565/usa-today-8887948.0.jpg"
+  },
+  {
+    "id": 2,
+    "first_team_name": "Phoenix Suns",
+    "second_team_name": "Boston Celtics",
+    "first_team_image":
+      "https://a.espncdn.com/i/teamlogos/nba/500/phx.png",
+    "second_team_image":
+      "https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/Boston_Celtics.svg/1200px-Boston_Celtics.svg.png",
+    "score": "108:117",
+    "description":
+      "Walker matched his season high with 32 points and the Boston Celtics rolled to a 108:117 victory over the Phoenix Suns on Thursday night. The Celtics were without Jaylen Brown because of a sore left shoulder, and Jayson Tatum struggled shooting for the second straight game, going 3 of 17.",
+    "background_image":
+      "https://bostonglobe-prod.cdn.arcpublishing.com/resizer/_BzW6fdPAiODPHnGQke_n5dgBk0=/1440x0/cloudfront-us-east-1.images.arcpublishing.com/bostonglobe/FKND5OXCVGZNPBBNRAJBJVXQZ4.jpg"
+  },
+  {
+    "id": 3,
+    "first_team_name": "Los Angeles Clippers",
+    "second_team_name": "Denver Nuggets",
+    "first_team_image":
+      "https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Los_Angeles_Clippers_%282015%29.svg/1200px-Los_Angeles_Clippers_%282015%29.svg.png",
+    "second_team_image":
+      "https://upload.wikimedia.org/wikipedia/en/thumb/7/76/Denver_Nuggets.svg/1200px-Denver_Nuggets.svg.png",
+    "score": "112:124",
+    "description":
+      "The Nuggets dominated the first three quarters on a night when Nikola Jokic didn't reach double figures until hitting a 3-pointer with 5:20 left in the game. He finished with 14 points, seven rebounds and seven assists. 'We expect 30, 20 and 15 from him every night,'",
+    "background_image":
+      "https://www.sportsvideo.org/new/wp-content/uploads/2021/01/Nuggets-Featured-scaled.jpg"
+  },
+  {
+    "id": 4,
+    "first_team_name": "Toronto Raptors",
+    "second_team_name": "Brooklyn Nets",
+    "first_team_image":
+      "https://upload.wikimedia.org/wikipedia/sr/1/1e/Toronto_Raptors_logo_2015-16.png",
+    "second_team_image":
+      "https://b.fssta.com/uploads/application/nba/team-logos/Nets.png",
+    "score": "95:121",
+    "description":
+      "Kyrie Irving had 28 points, 11 rebounds and eight assists, and Bruce Brown added 21 points and 14 rebounds for the Nets, who again played without the injured Kevin Durant. 'It's obviously a difficult situation, but a lot of teams are playing short-handed. You've got to play with the guys who are there,' said Joe Harris.",
+    "background_image":
+      "https://www.gannett-cdn.com/media/USATODAY/USATODAY/2012/10/31/usp-nba_-preseason-washington-wizards-at-brooklyn-16_9.jpg?width=1600&height=800&fit=crop&format=pjpg&auto=webp"
+  },
+  {
+    "id": 5,
+    "first_team_name": "Atlanta Hawks",
+    "second_team_name": "Milwaukee Bucks",
+    "first_team_image":
+      "https://upload.wikimedia.org/wikipedia/en/thumb/2/24/Atlanta_Hawks_logo.svg/1200px-Atlanta_Hawks_logo.svg.png",
+    "second_team_image":
+      "https://cdn.freebiesupply.com/images/large/2x/milwaukee-bucks-logo-transparent.png",
+    "score": "101:111",
+    "description":
+      "Middleton broke a tie with a jumper with 0.5 seconds left in overtime and had 27 points to help the Bucks beat the Heat 109-107 on Saturday in Game 1 of the first-round series. 'I have confidence in myself,' Middleton said. 'You miss a lot of shots. You make a lot of shots.'",
+    "background_image":
+      "https://a.espncdn.com/photo/2015/0728/nba_g_bucksts_1296x729.jpg"
+  }
   ],
   "teams": [
     {
