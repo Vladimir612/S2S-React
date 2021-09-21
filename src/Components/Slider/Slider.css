@@ -30,6 +30,7 @@
   object-fit: cover;
   filter: brightness(30%) blur(1px);
 }
+
 .active-anim {
   opacity: 1;
 }
