@@ -53,14 +53,12 @@ export default function Slider() {
                     <div className="first-team">
                       <div className="team-img-wrapper">
                         <img
-                          src={game.first_team_image}
-                          alt={game.first_team_name}
+                          src={game.first_image}
+                          alt={game.first_name}
                           className="first-team-image"
                         />
                       </div>
-                      <h3 className="first-team-name">
-                        {game.first_team_name}
-                      </h3>
+                      <h3 className="first-team-name">{game.first_name}</h3>
                     </div>
                     <div className="vs-image">
                       <div className="vs-wrapper">
@@ -70,14 +68,12 @@ export default function Slider() {
                     <div className="second-team">
                       <div className="team-img-wrapper">
                         <img
-                          src={game.second_team_image}
-                          alt={game.second_team_name}
+                          src={game.second_image}
+                          alt={game.second_name}
                           className="second-team-image"
                         />
                       </div>
-                      <h3 className="second-team-name">
-                        {game.second_team_name}
-                      </h3>
+                      <h3 className="second-team-name">{game.second_name}</h3>
                     </div>
                   </div>
                   <div className="score-wrapper">
