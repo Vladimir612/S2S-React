@@ -1,45 +1,80 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./Card.css";
-import data from "../../data/data.json";
+import { Link } from "react-router-dom";
 
-const Card = () => {
-  const [dataPlayers, setDataPlayers] = useState([]);
-
-  useEffect(() => {
-    setDataPlayers(data.players);
-  }, []);
+const Card = (props) => {
   return (
-    <div className="card-container">
-      {dataPlayers.map((player) => {
-        return (
-          <div className="card" key={player.id}>
-            <div
-              className="card-image"
-              style={{ backgroundImage: `url(${player.front_image})` }}
-            ></div>
-            <div className="card-text">
-              <h2>{player.name}</h2>
-              <span>Team: {player.team}</span>
-              <p>{player.bio}</p>
-              <span>Position: {player.position}</span>
+    <div className="card">
+      <div className="top-content">
+        <div className="background-image">
+          <img
+            className={props.type === "team" ? "team-specific-style" : ""}
+            src={props.data.front_image}
+            alt={props.data.name}
+          />
+        </div>
+        {props.type === "player" && (
+          <div className="team-image">
+            <img src={props.data.team_image} alt={props.data.team} />
+          </div>
+        )}
+        {props.type === "player" ? (
+          <div className="player-position">
+            <p>{props.data.position}</p>
+          </div>
+        ) : (
+          <div
+            className="team-conference"
+            style={
+              props.data.conference === "W"
+                ? { backgroundColor: "#ff3b3b", border: "2px solid #620101" }
+                : { backgroundColor: "#12bdc6", border: "2px solid #00484c" }
+            }
+          >
+            <p>{props.data.conference}</p>
+          </div>
+        )}
+        <button className="btn-click-for-more">
+          <Link
+            to={
+              props.type === "player"
+                ? `/players/${props.data.id}`
+                : `/teams/${props.data.id}`
+            }
+          >
+            Click For More
+          </Link>
+        </button>
+        {props.type === "player" ? (
+          <div className="player-stats">
+            <div className="points">
+              <h3>PPG</h3>
+              <p>{props.data.stat_ppg}</p>
             </div>
-            <div className="card-stats">
-              <div className="stat">
-                <div className="value">{player.stat_ppg}</div>
-                <div className="type">PPG</div>
-              </div>
-              <div className="stat border">
-                <div className="value">{player.stat_rpg}</div>
-                <div className="type">RPG</div>
-              </div>
-              <div className="stat">
-                <div className="value">{player.stat_apg}</div>
-                <div className="type">APG</div>
-              </div>
+            <div className="rebounds">
+              <h3>RPG</h3>
+              <p>{props.data.stat_rpg}</p>
+            </div>
+            <div className="assists">
+              <h3>APG</h3>
+              <p>{props.data.stat_apg}</p>
             </div>
           </div>
-        );
-      })}
+        ) : (
+          <div className="team-standing">
+            <p>
+              Standing: <span>{props.data.standing}</span>
+            </p>
+          </div>
+        )}
+      </div>
+      <div className="bottom-content">
+        {props.type === "player" ? (
+          <h2 className="player-name">{props.data.name}</h2>
+        ) : (
+          <h2 className="team-name">{props.data.name}</h2>
+        )}
+      </div>
     </div>
   );
 };

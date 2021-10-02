@@ -1,20 +1,16 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "./Slider.css";
 import BtnSlider from "./BtnSlider.jsx";
-import data from "../../data/data.json";
+import { useGames } from "./../../data/GamesContext";
 
 export default function Slider() {
   const [slideIndex, setSlideIndex] = useState(1);
-  const [dataGames, setDataGames] = useState([]);
-
-  useEffect(() => {
-    setDataGames(data.games);
-  }, []);
+  let { games } = useGames();
 
   const nextSlide = () => {
-    if (slideIndex !== dataGames.length) {
+    if (slideIndex !== games.length) {
       setSlideIndex(slideIndex + 1);
-    } else if (slideIndex === dataGames.length) {
+    } else if (slideIndex === games.length) {
       setSlideIndex(1);
     }
   };
@@ -23,7 +19,7 @@ export default function Slider() {
     if (slideIndex !== 1) {
       setSlideIndex(slideIndex - 1);
     } else if (slideIndex === 1) {
-      setSlideIndex(dataGames.length);
+      setSlideIndex(games.length);
     }
   };
 
@@ -34,7 +30,7 @@ export default function Slider() {
   return (
     <div className="slider-wrapper">
       <div className="container-slider">
-        {dataGames.map((game, index) => {
+        {games.map((game, index) => {
           return (
             <div
               key={game.id}
@@ -53,12 +49,14 @@ export default function Slider() {
                     <div className="first-team">
                       <div className="team-img-wrapper">
                         <img
-                          src={game.first_image}
-                          alt={game.first_name}
+                          src={game.first_team_image}
+                          alt={game.first_team_name}
                           className="first-team-image"
                         />
                       </div>
-                      <h3 className="first-team-name">{game.first_name}</h3>
+                      <h3 className="first-team-name">
+                        {game.first_team_name}
+                      </h3>
                     </div>
                     <div className="vs-image">
                       <div className="vs-wrapper">
@@ -68,12 +66,14 @@ export default function Slider() {
                     <div className="second-team">
                       <div className="team-img-wrapper">
                         <img
-                          src={game.second_image}
-                          alt={game.second_name}
+                          src={game.second_team_image}
+                          alt={game.second_team_name}
                           className="second-team-image"
                         />
                       </div>
-                      <h3 className="second-team-name">{game.second_name}</h3>
+                      <h3 className="second-team-name">
+                        {game.second_team_name}
+                      </h3>
                     </div>
                   </div>
                   <div className="score-wrapper">
@@ -92,7 +92,7 @@ export default function Slider() {
         <BtnSlider moveSlide={prevSlide} direction={"prev"} />
 
         <div className="container-dots">
-          {dataGames.map((game, index) => (
+          {games.map((game, index) => (
             <div
               key={game.id}
               onClick={() => moveDot(index + 1)}

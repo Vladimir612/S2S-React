@@ -2,24 +2,21 @@ import React from "react";
 import { Switch, Route } from "react-router-dom";
 import "./assets/css/fonts.css";
 import "./App.css";
-
-//pages
-import Home from "./Pages/Home";
-import Player from "./Pages/Player";
-import Team from "./Pages/Team";
 import Error from "./Pages/Error";
+import RoutePage from "./Pages/RoutePage/RoutePage";
+import Home from "./Pages/Home";
 
-const App = () => {
+function App() {
   return (
     <>
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route exact path="/players/:player" component={Player} />
-        <Route exact path="/teams/:team" component={Team} />
+        <Route exact path="/players/:player" component={RoutePage} />
+        <Route exact path="/teams/:team" component={RoutePage} />
         <Route path="/404" component={Error} />
       </Switch>
     </>
   );
-};
+}
 
 export default App;
