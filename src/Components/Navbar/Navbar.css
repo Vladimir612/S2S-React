@@ -21,9 +21,10 @@
 
 .link-wrapper ul li {
   width: 8rem;
+  cursor: pointer;
 }
 
-.link-wrapper a {
+.link-wrapper li {
   text-decoration: none;
   color: #eecf9a;
   text-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
@@ -38,10 +39,16 @@
   .main-navbar {
     padding: 0rem 0%;
   }
-  .link-wrapper a {
+  .link-wrapper li {
     font-size: 1.1rem;
   }
   .link-wrapper ul li {
     width: 6rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .link-wrapper {
+    display: none;
   }
 }

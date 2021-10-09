@@ -1,13 +1,16 @@
 import React from "react";
 import logo from "../../assets/images/nbaInfo-logo.png";
-import { Link } from "react-router-dom";
 import "./Navbar.css";
 
-const Navbar = () => {
-  //scroll to bottom function
-  const scrollToFooter = () => {
-    window.scrollTo(0, document.body.scrollHeight);
+export const scrollFunc = (sectionName) => {
+    sectionName.current.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+      inline: "end",
+    });
   };
+
+const Navbar = (props) => {
 
   return (
     <div className="main-navbar">
@@ -16,22 +19,11 @@ const Navbar = () => {
       </div>
       <div className="link-wrapper">
         <ul>
-          <li>
-            <Link to="#">Games</Link>
-          </li>
-          <li>
-            <Link to="/" onClick={scrollToFooter}>
-              Players
-            </Link>
-          </li>
-          <li>
-            <Link to="#">Teams</Link>
-          </li>
-          <li>
-            <Link to="/" onClick={scrollToFooter}>
-              About Us
-            </Link>
-          </li>
+          {/* {props.sections.map((item) => ) } */}
+          <li onClick={() => scrollFunc(props.sections[0])}>Games</li>
+          <li onClick={() => scrollFunc(props.sections[1])}>Players</li>
+          <li onClick={() => scrollFunc(props.sections[2])}>Teams</li>
+          <li onClick={() => scrollFunc(props.sections[3])}>About Us</li>
         </ul>
       </div>
     </div>

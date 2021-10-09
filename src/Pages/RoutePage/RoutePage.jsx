@@ -3,8 +3,13 @@ import "./RoutePage.css";
 import { useSinglePlayer } from "./../../data/SinglePlayerContext";
 import { useSingleTeam } from "./../../data/SingleTeamContext";
 import { BsBarChartFill } from "react-icons/bs";
+import { IoArrowBackOutline } from 'react-icons/io5'
+import { useHistory } from 'react-router-dom'
 
 const RoutePage = (props) => {
+
+  const history = useHistory()
+
   const location = props.match.path.toString();
   const pageType = location.substring(
     location.indexOf("/") + 1,
@@ -35,6 +40,16 @@ const RoutePage = (props) => {
     <div className="route-page">
       <div className="background-img">
         <img src={data.back_image} alt={data.name} />
+      </div>
+      <div className='back-button-wrapper'>
+        <button
+          className='back'
+          onClick={() => {
+            history.goBack()
+          }}
+        >
+          <IoArrowBackOutline size={25} />
+        </button>
       </div>
       <div className="content">
         <div className="left-col">

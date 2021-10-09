@@ -2,8 +2,9 @@ import React from "react";
 import "./Hero.css";
 import bgImg from "../../assets/images/bg-basketball.png";
 import playerImg from "../../assets/images/basketball-player.png";
+import { scrollFunc } from "../Navbar/Navbar";
 
-const Hero = () => {
+const Hero = (props) => {
   return (
     <div className="hero">
       <div className="image-wrapper">
@@ -12,7 +13,7 @@ const Hero = () => {
       <div className="banner">
         <h1>NBA info</h1>
         <p>Find out quickly every hot info from NBA</p>
-        <button>
+        <button onClick={() => scrollFunc(props.toSection)}>
           <div className="arrows">
             <span className="arrow-1"></span>
             <span className="arrow-2"></span>

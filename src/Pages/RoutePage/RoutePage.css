@@ -53,7 +53,9 @@
 .front-img {
   width: 16rem;
   height: 20rem;
+  max-width: 100%;
 }
+
 .front-img img {
   width: 100%;
   height: 100%;
@@ -103,6 +105,7 @@
   align-items: center;
   justify-content: space-around;
   margin-bottom: 2rem;
+  max-width: 100%;
 }
 
 .player-team-wrapper,
@@ -234,4 +237,119 @@
   font-weight: 500;
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
   font-size: 1.4rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .left-col {
+    margin-left: 3rem;
+  }
+  .right-col {
+    padding: 0 3rem;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .route-page .front-img {
+    display: none;
+  }
+
+  .route-page .right-col,
+  .route-page .left-col {
+    width: 100%;
+    margin-left: initial;
+  }
+
+  .player-page-stats {
+    max-width: 80%;
+    margin-top: 2rem;
+  }
+
+  .route-page .content {
+    flex-direction: column-reverse;
+  }
+  .page-details {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .player-team-wrapper,
+  .position-wrapper,
+  .conference-wrapper,
+  .standing-wrapper {
+    width: 100%;
+  }
+
+  .position-wrapper {
+    margin-top: 2rem;
+  }
+
+  .player-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .player-list li {
+    padding: 0 2rem;
+  }
+
+  .right-col {
+    height: 75%;
+  }
+
+  .page-bio {
+    margin-bottom: 2rem;
+  }
+
+  .page-title {
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+  }
+
+  .page-details {
+    height: 14rem;
+    margin-bottom: 1rem;
+  }
+
+  .content {
+    overflow-y: scroll;
+  }
+
+  .left-col {
+    padding: 0 2rem;
+  }
+
+  .route-page .roster {
+    margin-bottom: 10rem;
+  }
+}
+
+.back-button-wrapper {
+  position: absolute;
+  z-index: 1;
+  top: 1rem;
+  left: 1rem;
+}
+
+.back-button-wrapper .back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  border: none;
+  border-radius: 100%;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 500px) {
+  .page-title h1 {
+    font-size: 2.2rem;
+  }
+
+  .page-title {
+    margin: 1rem 0.2rem 0 1.5rem;
+  }
 }

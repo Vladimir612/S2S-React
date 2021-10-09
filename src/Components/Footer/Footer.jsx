@@ -1,9 +1,9 @@
 import React from "react";
 import "./Footer.css";
 
-const Footer = () => {
+const Footer = (props) => {
   return (
-    <div className="footer">
+    <div className="footer" ref={props.section}>
       <footer className="footer-distributed">
         <div className="footer-left">
           <h3>NBA Info</h3>
