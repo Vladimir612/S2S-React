@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom"
+import { FaMapMarkerAlt, FaPhone, FaEnvelope, FaFacebook, FaInstagram, FaGithub, FaTwitter } from "react-icons/fa";
 
 const Footer = (props) => {
   return (
@@ -12,19 +14,19 @@ const Footer = (props) => {
 
         <div className="footer-center">
           <div className="location">
-            <i className="fa fa-map-marker"></i>
+            <FaMapMarkerAlt size={24} style={{margin: "5px 10px 0 0"}} />
             <p>Jove Ilica 15 Belgrade, Serbia</p>
           </div>
 
           <div className="phone">
-            <i className="fa fa-phone"></i>
+            <FaPhone size={24} style={{margin: "5px 10px 0 0"}}/>
             <p>+381 2837019</p>
           </div>
 
           <div className="email">
-            <i className="fa fa-envelope"></i>
+            <FaEnvelope size={24} style={{margin: "5px 10px 0 0"}} />
             <p>
-              <a href="mailto:nbainfo@gmail.com">nbainfo@gmail.com</a>
+              <Link to="mailto:nbainfo@gmail.com">nbainfo@gmail.com</Link>
             </p>
           </div>
         </div>
@@ -37,18 +39,18 @@ const Footer = (props) => {
           </p>
 
           <div className="footer-icons">
-            <a href="http://www.facebook.com">
-              <i className="fa fa-facebook"></i>
-            </a>
-            <a href="https://www.instagram.com">
-              <i className="fa fa-instagram"></i>
-            </a>
-            <a href="http://twitter.com">
-              <i className="fa fa-twitter"></i>
-            </a>
-            <a href="http://github.com">
-              <i className="fa fa-github"></i>
-            </a>
+            <Link to="http://www.facebook.com">
+              <FaFacebook />
+            </Link>
+            <Link to="https://www.instagram.com">
+              <FaInstagram />
+            </Link>
+            <Link to="http://twitter.com">
+              <FaGithub />
+            </Link>
+            <Link to="http://github.com">
+              <FaTwitter />
+            </Link>
           </div>
         </div>
       </footer>
