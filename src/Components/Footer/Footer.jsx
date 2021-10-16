@@ -1,10 +1,9 @@
 import React from "react";
-import "./Footer.css";
 
 const Footer = (props) => {
   return (
-    <div className="footer" ref={props.section}>
-      <footer className="footer-distributed">
+    <div className="footer-container">
+      <footer className="footer" ref={props.section}>
         <div className="footer-left">
           <h3>NBA Info</h3>
 
@@ -12,20 +11,17 @@ const Footer = (props) => {
         </div>
 
         <div className="footer-center">
-          <div>
+          <div className="location">
             <i className="fa fa-map-marker"></i>
-            <p>
-              <span>Jove Ilica 15</span>
-              Belgrade, Serbia
-            </p>
+            <p>Jove Ilica 15 Belgrade, Serbia</p>
           </div>
 
-          <div>
+          <div className="phone">
             <i className="fa fa-phone"></i>
-            <p>+371 2837019</p>
+            <p>+381 2837019</p>
           </div>
 
-          <div>
+          <div className="email">
             <i className="fa fa-envelope"></i>
             <p>
               <a href="mailto:nbainfo@gmail.com">nbainfo@gmail.com</a>
@@ -35,7 +31,7 @@ const Footer = (props) => {
 
         <div className="footer-right">
           <p className="footer-company-about">
-            <span>About the company</span>
+            <h4>About the company</h4>
             NBA Info is a website that provides informations and insights to NBA
             league. It is a free website for NBA lovers.
           </p>

@@ -1,5 +1,4 @@
 import React from "react";
-import "./Slider.css";
 import { FaArrowCircleLeft, FaArrowCircleRight } from "react-icons/fa";
 
 export default function BtnSlider({ direction, moveSlide }) {

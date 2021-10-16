@@ -1,17 +1,15 @@
 import React from "react";
 import logo from "../../assets/images/nbaInfo-logo.png";
-import "./Navbar.css";
 
 export const scrollFunc = (sectionName) => {
-    sectionName.current.scrollIntoView({
-      behavior: "smooth",
-      block: "start",
-      inline: "end",
-    });
-  };
+  sectionName.current.scrollIntoView({
+    behavior: "smooth",
+    block: "start",
+    inline: "end",
+  });
+};
 
 const Navbar = (props) => {
-
   return (
     <div className="main-navbar">
       <div className="logo-wrapper">

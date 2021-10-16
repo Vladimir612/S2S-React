@@ -1,14 +1,12 @@
 import React, { useEffect } from "react";
-import "./RoutePage.css";
-import { useSinglePlayer } from "./../../data/SinglePlayerContext";
-import { useSingleTeam } from "./../../data/SingleTeamContext";
+import { useSinglePlayer } from "../data/SinglePlayerContext";
+import { useSingleTeam } from "../data/SingleTeamContext";
 import { BsBarChartFill } from "react-icons/bs";
-import { IoArrowBackOutline } from 'react-icons/io5'
-import { useHistory } from 'react-router-dom'
+import { IoArrowBackOutline } from "react-icons/io5";
+import { useHistory } from "react-router-dom";
 
 const RoutePage = (props) => {
-
-  const history = useHistory()
+  const history = useHistory();
 
   const location = props.match.path.toString();
   const pageType = location.substring(
@@ -41,11 +39,11 @@ const RoutePage = (props) => {
       <div className="background-img">
         <img src={data.back_image} alt={data.name} />
       </div>
-      <div className='back-button-wrapper'>
+      <div className="back-button-wrapper">
         <button
-          className='back'
+          className="back"
           onClick={() => {
-            history.goBack()
+            history.goBack();
           }}
         >
           <IoArrowBackOutline size={25} />

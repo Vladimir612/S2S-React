@@ -1,5 +1,4 @@
 import React from "react";
-import "./Hero.css";
 import bgImg from "../../assets/images/bg-basketball.png";
 import playerImg from "../../assets/images/basketball-player.png";
 import { scrollFunc } from "../Navbar/Navbar";

@@ -1,16 +1,15 @@
-import React from 'react'
-import Slider from '../Slider/Slider.jsx'
-import './Games.css'
+import React from "react";
+import Slider from "../Slider/Slider.jsx";
 
 const Games = (props) => {
-   return (
-      <div className="games-section" ref={props.section}>
-         <div className="section-title">
-            <h2>Games</h2>
-         </div>
-         <Slider />
+  return (
+    <div className="games-section" ref={props.section}>
+      <div className="section-title">
+        <h2>Games</h2>
       </div>
-   )
-}
+      <Slider />
+    </div>
+  );
+};
 
-export default Games
+export default Games;
