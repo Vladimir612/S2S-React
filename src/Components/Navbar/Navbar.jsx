@@ -17,7 +17,6 @@ const Navbar = (props) => {
       </div>
       <div className="link-wrapper">
         <ul>
-          {/* {props.sections.map((item) => ) } */}
           <li onClick={() => scrollFunc(props.sections[0])}>Games</li>
           <li onClick={() => scrollFunc(props.sections[1])}>Players</li>
           <li onClick={() => scrollFunc(props.sections[2])}>Teams</li>

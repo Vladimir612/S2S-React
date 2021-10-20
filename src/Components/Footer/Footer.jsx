@@ -4,8 +4,8 @@ import { FaMapMarkerAlt, FaPhone, FaEnvelope, FaFacebook, FaInstagram, FaGithub,
 
 const Footer = (props) => {
   return (
-    <div className="footer-container">
-      <footer className="footer" ref={props.section}>
+    <div className="footer">
+      <footer className="footer-wrapper" ref={props.section}>
         <div className="footer-left">
           <h3>NBA Info</h3>
 

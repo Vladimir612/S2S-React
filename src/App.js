@@ -13,7 +13,7 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route exact path="/players/:player" component={RoutePage} />
         <Route exact path="/teams/:team" component={RoutePage} />
-        <Route path="/404" component={Error} />
+        <Route path="*" component={Error} />
       </Switch>
     </>
   );
