@@ -1,75 +1,55 @@
 {
   "games": [
     {
-    "id": 1,
-    "first_team_name": "Los Angeles Lakers",
-    "second_team_name": "Golden State Warriors",
-    "first_team_image":
-      "https://www.freepnglogos.com/uploads/lakers-logo-png/lakers-free-hd-logo-png-2.png",
-    "second_team_image":
-      "https://www.freepnglogos.com/uploads/warriors-png-logo/golden-state-warriors-png-logo-9.png",
-    "score": "120:115",
-    "description":
-      "Stephen Curry scored 29 points and the Warriors capitalized on Smith's mistake that sent the game into overtime, overcoming a 51-point performance by James to beat Lakers 120-115 on Thursday night.",
-    "background_image":
-      "https://cdn.vox-cdn.com/thumbor/U056N8XATmtq73WtCBf4nysbZoA=/0x0:4129x2753/920x613/filters:focal(0x0:4129x2753):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/49023565/usa-today-8887948.0.jpg"
-  },
-  {
-    "id": 2,
-    "first_team_name": "Phoenix Suns",
-    "second_team_name": "Boston Celtics",
-    "first_team_image":
-      "https://a.espncdn.com/i/teamlogos/nba/500/phx.png",
-    "second_team_image":
-      "https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/Boston_Celtics.svg/1200px-Boston_Celtics.svg.png",
-    "score": "108:117",
-    "description":
-      "Walker matched his season high with 32 points and the Boston Celtics rolled to a 108:117 victory over the Phoenix Suns on Thursday night. The Celtics were without Jaylen Brown because of a sore left shoulder, and Jayson Tatum struggled shooting for the second straight game, going 3 of 17.",
-    "background_image":
-      "https://bostonglobe-prod.cdn.arcpublishing.com/resizer/_BzW6fdPAiODPHnGQke_n5dgBk0=/1440x0/cloudfront-us-east-1.images.arcpublishing.com/bostonglobe/FKND5OXCVGZNPBBNRAJBJVXQZ4.jpg"
-  },
-  {
-    "id": 3,
-    "first_team_name": "Los Angeles Clippers",
-    "second_team_name": "Denver Nuggets",
-    "first_team_image":
-      "https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Los_Angeles_Clippers_%282015%29.svg/1200px-Los_Angeles_Clippers_%282015%29.svg.png",
-    "second_team_image":
-      "https://upload.wikimedia.org/wikipedia/en/thumb/7/76/Denver_Nuggets.svg/1200px-Denver_Nuggets.svg.png",
-    "score": "112:124",
-    "description":
-      "The Nuggets dominated the first three quarters on a night when Nikola Jokic didn't reach double figures until hitting a 3-pointer with 5:20 left in the game. He finished with 14 points, seven rebounds and seven assists. 'We expect 30, 20 and 15 from him every night,'",
-    "background_image":
-      "https://www.sportsvideo.org/new/wp-content/uploads/2021/01/Nuggets-Featured-scaled.jpg"
-  },
-  {
-    "id": 4,
-    "first_team_name": "Toronto Raptors",
-    "second_team_name": "Brooklyn Nets",
-    "first_team_image":
-      "https://upload.wikimedia.org/wikipedia/sr/1/1e/Toronto_Raptors_logo_2015-16.png",
-    "second_team_image":
-      "https://b.fssta.com/uploads/application/nba/team-logos/Nets.png",
-    "score": "95:121",
-    "description":
-      "Kyrie Irving had 28 points, 11 rebounds and eight assists, and Bruce Brown added 21 points and 14 rebounds for the Nets, who again played without the injured Kevin Durant. 'It's obviously a difficult situation, but a lot of teams are playing short-handed. You've got to play with the guys who are there,' said Joe Harris.",
-    "background_image":
-      "https://www.gannett-cdn.com/media/USATODAY/USATODAY/2012/10/31/usp-nba_-preseason-washington-wizards-at-brooklyn-16_9.jpg?width=1600&height=800&fit=crop&format=pjpg&auto=webp"
-  },
-  {
-    "id": 5,
-    "first_team_name": "Atlanta Hawks",
-    "second_team_name": "Milwaukee Bucks",
-    "first_team_image":
-      "https://upload.wikimedia.org/wikipedia/en/thumb/2/24/Atlanta_Hawks_logo.svg/1200px-Atlanta_Hawks_logo.svg.png",
-    "second_team_image":
-      "https://cdn.freebiesupply.com/images/large/2x/milwaukee-bucks-logo-transparent.png",
-    "score": "101:111",
-    "description":
-      "Middleton broke a tie with a jumper with 0.5 seconds left in overtime and had 27 points to help the Bucks beat the Heat 109-107 on Saturday in Game 1 of the first-round series. 'I have confidence in myself,' Middleton said. 'You miss a lot of shots. You make a lot of shots.'",
-    "background_image":
-      "https://a.espncdn.com/photo/2015/0728/nba_g_bucksts_1296x729.jpg"
-  }
+      "id": 1,
+      "first_team_name": "Los Angeles Lakers",
+      "second_team_name": "Golden State Warriors",
+      "first_team_image": "https://www.freepnglogos.com/uploads/lakers-logo-png/lakers-free-hd-logo-png-2.png",
+      "second_team_image": "https://www.freepnglogos.com/uploads/warriors-png-logo/golden-state-warriors-png-logo-9.png",
+      "score": "120:115",
+      "description": "Stephen Curry scored 29 points and the Warriors capitalized on Smith's mistake that sent the game into overtime, overcoming a 51-point performance by James to beat Lakers 120-115 on Thursday night.",
+      "background_image": "https://cdn.vox-cdn.com/thumbor/U056N8XATmtq73WtCBf4nysbZoA=/0x0:4129x2753/920x613/filters:focal(0x0:4129x2753):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/49023565/usa-today-8887948.0.jpg"
+    },
+    {
+      "id": 2,
+      "first_team_name": "Phoenix Suns",
+      "second_team_name": "Boston Celtics",
+      "first_team_image": "https://a.espncdn.com/i/teamlogos/nba/500/phx.png",
+      "second_team_image": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/Boston_Celtics.svg/1200px-Boston_Celtics.svg.png",
+      "score": "108:117",
+      "description": "Walker matched his season high with 32 points and the Boston Celtics rolled to a 108:117 victory over the Phoenix Suns on Thursday night. The Celtics were without Jaylen Brown because of a sore left shoulder, and Jayson Tatum struggled shooting for the second straight game, going 3 of 17.",
+      "background_image": "https://bostonglobe-prod.cdn.arcpublishing.com/resizer/_BzW6fdPAiODPHnGQke_n5dgBk0=/1440x0/cloudfront-us-east-1.images.arcpublishing.com/bostonglobe/FKND5OXCVGZNPBBNRAJBJVXQZ4.jpg"
+    },
+    {
+      "id": 3,
+      "first_team_name": "Los Angeles Clippers",
+      "second_team_name": "Denver Nuggets",
+      "first_team_image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Los_Angeles_Clippers_%282015%29.svg/1200px-Los_Angeles_Clippers_%282015%29.svg.png",
+      "second_team_image": "https://upload.wikimedia.org/wikipedia/en/thumb/7/76/Denver_Nuggets.svg/1200px-Denver_Nuggets.svg.png",
+      "score": "112:124",
+      "description": "The Nuggets dominated the first three quarters on a night when Nikola Jokic didn't reach double figures until hitting a 3-pointer with 5:20 left in the game. He finished with 14 points, seven rebounds and seven assists. 'We expect 30, 20 and 15 from him every night,'",
+      "background_image": "https://www.sportsvideo.org/new/wp-content/uploads/2021/01/Nuggets-Featured-scaled.jpg"
+    },
+    {
+      "id": 4,
+      "first_team_name": "Toronto Raptors",
+      "second_team_name": "Brooklyn Nets",
+      "first_team_image": "https://upload.wikimedia.org/wikipedia/sr/1/1e/Toronto_Raptors_logo_2015-16.png",
+      "second_team_image": "https://b.fssta.com/uploads/application/nba/team-logos/Nets.png",
+      "score": "95:121",
+      "description": "Kyrie Irving had 28 points, 11 rebounds and eight assists, and Bruce Brown added 21 points and 14 rebounds for the Nets, who again played without the injured Kevin Durant. 'It's obviously a difficult situation, but a lot of teams are playing short-handed. You've got to play with the guys who are there,' said Joe Harris.",
+      "background_image": "https://www.gannett-cdn.com/media/USATODAY/USATODAY/2012/10/31/usp-nba_-preseason-washington-wizards-at-brooklyn-16_9.jpg?width=1600&height=800&fit=crop&format=pjpg&auto=webp"
+    },
+    {
+      "id": 5,
+      "first_team_name": "Atlanta Hawks",
+      "second_team_name": "Milwaukee Bucks",
+      "first_team_image": "https://upload.wikimedia.org/wikipedia/en/thumb/2/24/Atlanta_Hawks_logo.svg/1200px-Atlanta_Hawks_logo.svg.png",
+      "second_team_image": "http://assets.stickpng.com/images/58419ba7a6515b1e0ad75a54.png",
+      "score": "101:111",
+      "description": "Middleton broke a tie with a jumper with 0.5 seconds left in overtime and had 27 points to help the Bucks beat the Heat 109-107 on Saturday in Game 1 of the first-round series. 'I have confidence in myself,' Middleton said. 'You miss a lot of shots. You make a lot of shots.'",
+      "background_image": "https://a.espncdn.com/photo/2015/0728/nba_g_bucksts_1296x729.jpg"
+    }
   ],
   "teams": [
     {
@@ -79,14 +59,14 @@
       "back_image": "http://tile.loc.gov/image-services/iiif/service:pnp:highsm:24300:24341/full/pct:25/0/default.jpg",
       "standing": 1,
       "conference": "W",
-      
+
       "conference_name": "Western Conference",
       "roster": [
-        {"id": "103", "name": "Lebron James"},
-        {"id": "140", "name": "Anthony Davis"},
-        {"id": "101", "name": "Russell Westbrook"},
-        {"id": "109", "name": "Carmelo Anthony"},
-        {"id": "110", "name": "Dwight Howard"}
+        { "id": "103", "name": "Lebron James" },
+        { "id": "140", "name": "Anthony Davis" },
+        { "id": "101", "name": "Russell Westbrook" },
+        { "id": "109", "name": "Carmelo Anthony" },
+        { "id": "110", "name": "Dwight Howard" }
       ],
       "bio": "The Los Angeles Lakers are an American professional basketball team based in Los Angeles. The Lakers compete in the National Basketball Association (NBA) as a member of the league's Western Conference Pacific Division. The Lakers play their home games at Staples Center, an arena shared with the NBA's Los Angeles Clippers, the Los Angeles Sparks of the Women's National Basketball Association, and the Los Angeles Kings of the National Hockey League. The Lakers are one of the most successful teams in the history of the NBA, and have won 17 NBA championships, tied with the Boston Celtics for the most in NBA history."
     },
@@ -99,11 +79,11 @@
       "conference": "W",
       "conference_name": "Western Conference",
       "roster": [
-        {"id": "102", "name": "Stephen Curry"},
-        {"id": "111", "name": "Klay Thompson"},
-        {"id": "112", "name": "Draymond Green"},
-        {"id": "113", "name": "Andrew Wiggins"},
-        {"id": "114", "name": "James Wiseman"}
+        { "id": "102", "name": "Stephen Curry" },
+        { "id": "111", "name": "Klay Thompson" },
+        { "id": "112", "name": "Draymond Green" },
+        { "id": "113", "name": "Andrew Wiggins" },
+        { "id": "114", "name": "James Wiseman" }
       ],
       "bio": "The Golden State Warriors are an American professional basketball team based in San Francisco. The Warriors compete in the National Basketball Association (NBA), as a member of the league's Western Conference Pacific Division. Founded in 1946 in Philadelphia, the Warriors moved to the San Francisco Bay Area in 1962 and took the city's name, before changing its geographic moniker to Golden State in 1971. The club plays its home games at the Chase Center."
     },
@@ -116,11 +96,11 @@
       "conference": "E",
       "conference_name": "Eastern Conference",
       "roster": [
-        {"id": "104", "name": "Kevin Durant"},
-        {"id": "106", "name": "James Harden"},
-        {"id": "115", "name": "Kyrie Irving"},
-        {"id": "116", "name": "Blake Griffin"},
-        {"id": "117", "name": "Jo Harris"}
+        { "id": "104", "name": "Kevin Durant" },
+        { "id": "106", "name": "James Harden" },
+        { "id": "115", "name": "Kyrie Irving" },
+        { "id": "116", "name": "Blake Griffin" },
+        { "id": "117", "name": "Jo Harris" }
       ],
       "bio": "The Brooklyn Nets are an American professional basketball team based in the New York City borough of Brooklyn. The Nets compete in the National Basketball Association (NBA) as a member of the Atlantic Division of the Eastern Conference. The team plays its home games at Barclays Center. They are one of two NBA teams located in New York City; the other is the New York Knicks. The club was established in 1967 as a charter franchise of the NBA's rival league, the American Basketball Association (ABA). They played in New Jersey as the New Jersey Americans during their first season, before relocating to Long Island, New York, in 1968 and changing their name to the New York Nets. During this time, the Nets won two ABA championships (in 1974 and 1976). In 1976, the ABA merged with the NBA, and the Nets were absorbed into the NBA along with three other ABA teams (the San Antonio Spurs, Indiana Pacers, and Denver Nuggets), all of whom remain in the league to this day."
     },
@@ -133,28 +113,28 @@
       "conference": "W",
       "conference_name": "Western Conference",
       "roster": [
-        {"id": "107", "name": "Nikola Jokic"},
-        {"id": "118", "name": "Michael Porter Jr"},
-        {"id": "119", "name": "Jeff Green"},
-        {"id": "120", "name": "Monte Morris"},
-        {"id": "121", "name": "Will Barton"}
+        { "id": "107", "name": "Nikola Jokic" },
+        { "id": "118", "name": "Michael Porter Jr" },
+        { "id": "119", "name": "Jeff Green" },
+        { "id": "120", "name": "Monte Morris" },
+        { "id": "121", "name": "Will Barton" }
       ],
       "bio": "The Denver Nuggets are an American professional basketball team based in Denver. The Nuggets compete in the National Basketball Association (NBA) as a member of the league's Western Conference Northwest Division. The team was founded as the Denver Larks in 1967 as a charter franchise of the American Basketball Association (ABA), but changed their name to Rockets before the first season. The Rockets then changed their name again to the Nuggets in 1974. After the name change, the Nuggets played for the final ABA Championship title in 1976, losing to the New York Nets."
     },
     {
       "id": 1005,
       "name": "Milwaukee Bucks",
-      "front_image": "https://cdn.freebiesupply.com/images/large/2x/milwaukee-bucks-logo-transparent.png",
+      "front_image": "http://assets.stickpng.com/images/58419ba7a6515b1e0ad75a54.png",
       "back_image": "https://a.espncdn.com/photo/2015/0728/nba_g_bucksts_1296x729.jpg",
       "standing": 2,
       "conference": "E",
       "conference_name": "Eastern Conference",
       "roster": [
-        {"id": "105", "name": "Giannis Antetokounmpo"},
-        {"id": "122", "name": "Khris Middleton"},
-        {"id": "123", "name": "Jrue Holiday"},
-        {"id": "124", "name": "Donte DiVincenzo"},
-        {"id": "125", "name": "Brook Lopez"}
+        { "id": "105", "name": "Giannis Antetokounmpo" },
+        { "id": "122", "name": "Khris Middleton" },
+        { "id": "123", "name": "Jrue Holiday" },
+        { "id": "124", "name": "Donte DiVincenzo" },
+        { "id": "125", "name": "Brook Lopez" }
       ],
       "bio": "The Milwaukee Bucks are an American professional basketball team based in Milwaukee. The Bucks compete in the National Basketball Association (NBA) as a member of the league's Eastern Conference Central Division. The team was founded in 1968 as an expansion team, and play at the Fiserv Forum. Former U.S. Senator Herb Kohl was the long-time owner of the team, but on April 16, 2014, a group led by billionaire hedge fund managers Wes Edens and Marc Lasry agreed to purchase a majority interest in the team from Kohl, a sale which was approved by the owners of the NBA and its Board of Governors one month later on May 16. The team is managed by Jon Horst, the team's former director of basketball operations, who took over from John Hammond in May 2017."
     },
@@ -167,11 +147,11 @@
       "conference": "E",
       "conference_name": "Eastern Conference",
       "roster": [
-        {"id": "126", "name": "Trae Young"},
-        {"id": "127", "name": "Bogdan Bogdanovic"},
-        {"id": "128", "name": "De'Andre Hunter DD"},
-        {"id": "129", "name": "John Collins"},
-        {"id": "130", "name": "Clint Capela"}
+        { "id": "126", "name": "Trae Young" },
+        { "id": "127", "name": "Bogdan Bogdanovic" },
+        { "id": "128", "name": "De'Andre Hunter DD" },
+        { "id": "129", "name": "John Collins" },
+        { "id": "130", "name": "Clint Capela" }
       ],
       "bio": "The Atlanta Hawks are an American professional basketball team based in Atlanta. The Hawks compete in the National Basketball Association (NBA) as a member of the league's Eastern Conference Southeast Division. The team plays its home games at State Farm Arena. The team's origins can be traced to the establishment of the Buffalo Bisons in 1946 in Buffalo, New York, a member of the National Basketball League (NBL) owned by Ben Kerner and Leo Ferris. After 38 days in Buffalo, the team moved to Moline, Illinois, where they were renamed the Tri-Cities Blackhawks. In 1949, they joined the NBA as part of the merger between the NBL and the Basketball Association of America (BAA), and briefly had Red Auerbach as coach. In 1951, Kerner moved the team to Milwaukee, where they changed their name to the Hawks. Kerner and the team moved again in 1955 to St. Louis, where they won their only NBA Championship in 1958 and qualified to play in the NBA Finals in 1957, 1960 and 1961. The Hawks played the Boston Celtics in all four of their trips to the NBA Finals. The St. Louis Hawks moved to Atlanta in 1968, when Kerner sold the franchise to Thomas Cousins and former Georgia Governor Carl Sanders."
     },
@@ -184,11 +164,11 @@
       "conference": "W",
       "conference_name": "Western Conference",
       "roster": [
-        {"id": "131", "name": "Shai Gilgeous-Alexander"},
-        {"id": "132", "name": "Josh Giddey"},
-        {"id": "133", "name": "Luguentz Dort"},
-        {"id": "134", "name": "Darius Bazley"},
-        {"id": "135", "name": "Derrick Favors"}
+        { "id": "131", "name": "Shai Gilgeous-Alexander" },
+        { "id": "132", "name": "Josh Giddey" },
+        { "id": "133", "name": "Luguentz Dort" },
+        { "id": "134", "name": "Darius Bazley" },
+        { "id": "135", "name": "Derrick Favors" }
       ],
       "bio": "The Oklahoma City Thunder are an American professional basketball team based in Oklahoma City. The Thunder compete in the National Basketball Association (NBA) as a member of the league's Western Conference Northwest Division. The team plays its home games at Paycom Center. The Thunder's NBA G League affiliate is the Oklahoma City Blue, which it owns. The Thunder are the only team in the major professional North American sports leagues based in the state of Oklahoma. Oklahoma City previously hosted the New Orleans Hornets for two seasons following devastation caused by Hurricane Katrina in New Orleans."
     },
@@ -201,11 +181,11 @@
       "conference": "W",
       "conference_name": "Western Conference",
       "roster": [
-        {"id": "108", "name": "Luka Doncic"},
-        {"id": "136", "name": "Tim Hardaway Jr."},
-        {"id": "137", "name": "Dorian Finney-Smith"},
-        {"id": "138", "name": "Kristaps Porzingis"},
-        {"id": "139", "name": "Maxi Kleber"}
+        { "id": "108", "name": "Luka Doncic" },
+        { "id": "136", "name": "Tim Hardaway Jr." },
+        { "id": "137", "name": "Dorian Finney-Smith" },
+        { "id": "138", "name": "Kristaps Porzingis" },
+        { "id": "139", "name": "Maxi Kleber" }
       ],
       "bio": "The Dallas Mavericks (often referred to as the Mavs) are an American professional basketball team based in Dallas. The Mavericks compete in the National Basketball Association (NBA) as a member of the Western Conference Southwest Division. The team plays its home games at the American Airlines Center, which it shares with the National Hockey League's Dallas Stars. Throughout the 1980s, the Mavericks were a perennial playoff team, led by All-Stars Rolando Blackman and Mark Aguirre. The team struggled during the 1990s, entering into a period of rebuilding. In 1998, the franchise's fortunes would change drastically with the acquisition of Dirk Nowitzki, who would become the cornerstone of the most successful period in franchise history, leading the team to its first NBA championship in 2011."
     }
@@ -273,7 +253,7 @@
       "front_image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Giannis_Antetokounmpo_%2824845003687%29_%28cropped%29.jpg",
       "back_image": "https://basketballforever.nyc3.cdn.digitaloceanspaces.com/wp-content/uploads/2020/07/23002609/Giannis.jpg",
       "team": "Milwaukee Bucks",
-      "team_image": "https://cdn.freebiesupply.com/images/large/2x/milwaukee-bucks-logo-transparent.png",
+      "team_image": "http://assets.stickpng.com/images/58419ba7a6515b1e0ad75a54.png",
       "stat_ppg": 32.4,
       "stat_apg": 6.3,
       "stat_rpg": 13.1,
