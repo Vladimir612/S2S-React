@@ -45,7 +45,7 @@
       "first_team_name": "Atlanta Hawks",
       "second_team_name": "Milwaukee Bucks",
       "first_team_image": "https://upload.wikimedia.org/wikipedia/en/thumb/2/24/Atlanta_Hawks_logo.svg/1200px-Atlanta_Hawks_logo.svg.png",
-      "second_team_image": "http://assets.stickpng.com/images/58419ba7a6515b1e0ad75a54.png",
+      "second_team_image": "https://i.imgur.com/spcynqA.png",
       "score": "101:111",
       "description": "Middleton broke a tie with a jumper with 0.5 seconds left in overtime and had 27 points to help the Bucks beat the Heat 109-107 on Saturday in Game 1 of the first-round series. 'I have confidence in myself,' Middleton said. 'You miss a lot of shots. You make a lot of shots.'",
       "background_image": "https://a.espncdn.com/photo/2015/0728/nba_g_bucksts_1296x729.jpg"
@@ -124,7 +124,7 @@
     {
       "id": 1005,
       "name": "Milwaukee Bucks",
-      "front_image": "http://assets.stickpng.com/images/58419ba7a6515b1e0ad75a54.png",
+      "front_image": "https://i.imgur.com/spcynqA.png",
       "back_image": "https://a.espncdn.com/photo/2015/0728/nba_g_bucksts_1296x729.jpg",
       "standing": 2,
       "conference": "E",
@@ -253,7 +253,7 @@
       "front_image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Giannis_Antetokounmpo_%2824845003687%29_%28cropped%29.jpg",
       "back_image": "https://basketballforever.nyc3.cdn.digitaloceanspaces.com/wp-content/uploads/2020/07/23002609/Giannis.jpg",
       "team": "Milwaukee Bucks",
-      "team_image": "http://assets.stickpng.com/images/58419ba7a6515b1e0ad75a54.png",
+      "team_image": "https://i.imgur.com/spcynqA.png",
       "stat_ppg": 32.4,
       "stat_apg": 6.3,
       "stat_rpg": 13.1,
